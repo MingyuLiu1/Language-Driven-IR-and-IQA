@@ -249,6 +249,7 @@ Please visit [Language-Driven Image Restoration and Semantic-Aware Quality Asses
 }
 ```
 
+
 ## 🙏 Acknowledgement
 
 This repository is built as part of our survey project on language-driven image restoration and image quality assessment.
@@ -259,3 +260,9 @@ We sincerely thank the research community for its valuable contributions to the 
 - multimodal learning
 - foundation models
 - image quality assessment
+
+
+## License
+
+This repository is released under the [Apache 2.0 license](https://github.com/MingyuLiu1/Language-Driven-IR-and-IQA/blob/main/LICENSE).
+
