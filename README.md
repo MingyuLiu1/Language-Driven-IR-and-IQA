@@ -24,14 +24,14 @@ Image restoration aims to recover a high-quality image from its degraded counter
 <details>
 <summary><b>Prototype</b></summary>
 <p align="center">
-<img src="assets/prototype.png" widt="88%">
+<img src="assets/prototype.png" widt="80%">
 </p>
 </details>
 
 <details>
 <summary><b>Timeline</b></summary>
 <p align="center">
-  <img src="assets/timeline.png" alt="timeline" width="88%">
+  <img src="assets/timeline.png" alt="timeline" width="100%">
 </p>
 </details>
 
@@ -54,9 +54,9 @@ Image restoration aims to recover a high-quality image from its degraded counter
 
 | Method | Venue | Task | Domain | Coupling Level | Code |
 |---|---|---|---|---|---|
-| [Paper 1](https://arxiv.org/) | CVPR 2024 | Dehazing | Natural | Feature-level | [Code](https://github.com/) |
-| [Paper 2](https://arxiv.org/) | ECCV 2024 | Dehazing | Natural | Optimization-level | N/A |
-| [Paper 3](https://arxiv.org/) | AAAI 2025 | Dehazing | UHD | Execution-level | [Code](https://github.com/) |
+| [Paper 1](https://arxiv.org/) | CVPR 2024 | Denoising | Natural | Feature-level | [Code](https://github.com/) |
+| [Paper 2](https://arxiv.org/) | ECCV 2024 | Denoising | Natural | Optimization-level | N/A |
+| [Paper 3](https://arxiv.org/) | AAAI 2025 | Denoising | UHD | Execution-level | [Code](https://github.com/) |
 </details>
 
 <details>
