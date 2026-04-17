@@ -44,6 +44,7 @@ Image restoration aims to recover a high-quality image from its degraded counter
 
 - [ ] Complete the paper table
 - [ ] Add language-driven IQA subsection
+- [ ] Complete dataset table
 
 
 ## 📚 Papers by Task
