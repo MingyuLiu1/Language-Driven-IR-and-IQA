@@ -98,33 +98,34 @@ Image restoration aims to recover a high-quality image from its degraded counter
 <summary><b>Conventional IQA Methods</b></summary>
 <br>
 
-| Method | Paper / Link | Type | Sub-category | GT Required | Usage |
-|---|---|---|---|---|---|
-| PSNR | — | Full-Reference | Non-Learning-Based | Yes | Pixel-level fidelity |
-| SSIM | [Image Quality Assessment: From Error Visibility to Structural Similarity](https://ieeexplore.ieee.org/document/1284395) | Full-Reference | Non-Learning-Based | Yes | Structural consistency |
-| FSIM | [FSIM: A Feature Similarity Index for Image Quality Assessment](https://ieeexplore.ieee.org/document/5705575) | Full-Reference | Non-Learning-Based | Yes | Feature similarity |
-| MAE | — | Full-Reference | Non-Learning-Based | Yes | Pixel-wise absolute error |
-| MSE | — | Full-Reference | Non-Learning-Based | Yes | Pixel-wise squared error |
-| RMSE | — | Full-Reference | Non-Learning-Based | Yes | Root mean squared error |
-| ERGAS | [Relative Dimensionless Global Error in Synthesis](https://ieeexplore.ieee.org/document/873730) | Full-Reference | Non-Learning-Based | Yes | Reconstruction accuracy |
-| LPIPS | [The Unreasonable Effectiveness of Deep Features as a Perceptual Metric](https://arxiv.org/abs/1801.03924) | Full-Reference | Learning-Based | Yes | Perceptual similarity |
-| DISTS | [Image Quality Assessment: Unifying Structure and Texture Similarity](https://arxiv.org/abs/2004.07728) | Full-Reference | Learning-Based | Yes | Perceptual similarity |
-| CKDN | [CKDN](#) | Full-Reference | Learning-Based | Yes | Feature-based perceptual similarity |
-| AHIQ | [AHIQ](#) | Full-Reference | Learning-Based | Yes | Perceptual similarity |
-| TOPIQ-FR | [TOPIQ](#) | Full-Reference | Learning-Based | Yes | Perceptual quality prediction |
-| FID | [GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium](https://arxiv.org/abs/1706.08500) | Full-Reference | Distribution-Based | Yes | Distribution alignment |
-| BRISQUE | [No-Reference Image Quality Assessment in the Spatial Domain](https://ieeexplore.ieee.org/document/6272356) | No-Reference | Hand-Crafted | No | Blind perceptual quality estimation |
-| NIQE | [Making a “Completely Blind” Image Quality Analyzer](https://ieeexplore.ieee.org/document/6353522) | No-Reference | Hand-Crafted | No | Blind perceptual quality estimation |
-| PIQE | [PIQE](https://in.mathworks.com/help/images/ref/piqe.html) | No-Reference | Hand-Crafted | No | Blind perceptual quality estimation |
-| LOE | [Naturalness Preserved Enhancement Algorithm for Non-Uniform Illumination Images](https://ieeexplore.ieee.org/document/6804557) | No-Reference | Hand-Crafted | No | Lightness order consistency |
-| MUSIQ | [MUSIQ: Multi-scale Image Quality Transformer](https://arxiv.org/abs/2108.05997) | No-Reference | Learning-Based | No | Learning-based NR-IQA |
-| MANIQA | [MANIQA](https://arxiv.org/abs/2204.08958) | No-Reference | Learning-Based | No | Learning-based NR-IQA |
-| NIMA | [NIMA: Neural Image Assessment](https://arxiv.org/abs/1709.05424) | No-Reference | Learning-Based | No | Aesthetic / perceptual quality prediction |
-| HyperIQA | [HyperIQA](https://arxiv.org/abs/2007.09699) | No-Reference | Learning-Based | No | Blind IQA |
-| PAQ2PIQ | [PAQ2PIQ](https://arxiv.org/abs/2001.04095) | No-Reference | Learning-Based | No | Blind IQA |
-| DBCNN | [Blind Image Quality Assessment with Deep Bilinear Convolutional Neural Network](https://ieeexplore.ieee.org/document/8578498) | No-Reference | Learning-Based | No | Blind IQA |
-| TOPIQ-NR | [TOPIQ](#) | No-Reference | Learning-Based | No | Blind quality prediction |
-| CNNIQA | [CNNIQA](https://arxiv.org/abs/1406.7799) | No-Reference | Learning-Based | No | Blind IQA |
+| Method | Paper | Sub-category | GT Required |
+|---|---|---|---|
+| PSNR | N/A | Non-Learning-Based | ✓ |
+| SSIM | [Image quality assessment: from error visibility to structural similarity](https://ece.uwaterloo.ca/~z70wang/publications/ssim.pdf) | Non-Learning-Based | ✓ |
+| FSIM | [FSIM: A feature similarity index for image quality assessment](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=FSIM%3A+A+feature+similarity+index+for+image+quality+assessment&btnG=) | Non-Learning-Based | ✓ |
+| MAE | N/A | Non-Learning-Based | ✓ |
+| MSE | N/A | Non-Learning-Based | ✓ |
+| RMSE | N/A | Non-Learning-Based | ✓ |
+| ERGAS | [On the performance evaluation of pan-sharpening techniques](https://www.researchgate.net/profile/Roger-King-4/publication/3449922_On_the_Performance_Evaluation_of_Pan-Sharpening_Techniques/links/0fcfd509845bd01bc9000000/On-the-Performance-Evaluation-of-Pan-Sharpening-Techniques.pdf) | Non-Learning-Based | ✓ |
+| LPIPS | [The unreasonable effectiveness of deep features as a perceptual metric](https://arxiv.org/abs/1801.03924) | Learning-Based | ✓ |
+| DISTS | [Image quality assessment: Unifying structure and texture similarity](https://arxiv.org/abs/2004.07728) | Learning-Based | ✓ |
+| CKDN | [Learning conditional knowledge distillation for degraded-reference image quality assessment](https://arxiv.org/abs/2108.07948) | Learning-Based | ✓ |
+| AHIQ | [Attentions help cnns see better: Attention-based hybrid image quality assessment network](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/html/Lao_Attentions_Help_CNNs_See_Better_Attention-Based_Hybrid_Image_Quality_Assessment_CVPRW_2022_paper.html) | Learning-Based | ✓ |
+| TOPIQ-FR | [Topiq: A top-down approach from semantics to distortions for image quality assessment](https://arxiv.org/abs/2308.03060) | Learning-Based | ✓ |
+| FID | [Gans trained by a two time-scale update rule converge to a local nash equilibrium](https://arxiv.org/abs/1706.08500) | Distribution-based | ✓ |
+| BRISQUE | [No-reference image quality assessment in the spatial domain](https://www.live.ece.utexas.edu/publications/2012/TIP%20BRISQUE.pdf) | Hand-Crafted | × |
+| NIQE | [Making a “completely blind” image quality analyzer](https://www.live.ece.utexas.edu/publications/2013/mittal2013.pdf) | Hand-Crafted | × |
+| PIQE | [Blind image quality evaluation using perception based features](https://ieeexplore.ieee.org/document/7084843) | Hand-Crafted | × |
+| LOE | [Naturalness preserved enhancement algorithm for non-uniform illumination images](https://ieeexplore.ieee.org/document/6512558) | Hand-Crafted | × |
+| PI | [The 2018 PIRM challenge on perceptual image super-resolution](https://arxiv.org/pdf/1809.07517) | Hand-Crafted | × |
+| MUSIQ | [Musiq: Multi-scale image quality transformer](https://arxiv.org/abs/2108.05997) | Learning-Based | × |
+| MANIQA | [Maniqa: Multi-dimension attention network for no-reference image quality assessment](https://arxiv.org/abs/2204.08958) | Learning-Based | × |
+| NIMA | [NIMA: Neural image assessment](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8352823) | Learning-Based | × |
+| HyperIQA | [Blindly assess image quality in the wild guided by a self-adaptive hyper network](https://openaccess.thecvf.com/content_CVPR_2020/html/Su_Blindly_Assess_Image_Quality_in_the_Wild_Guided_by_a_CVPR_2020_paper.html) | Learning-Based | × |
+| PAQ2-PIQ | [From patches to pictures (PaQ-2-PiQ): Mapping the perceptual space of picture quality](https://openaccess.thecvf.com/content_CVPR_2020/html/Ying_From_Patches_to_Pictures_PaQ-2-PiQ_Mapping_the_Perceptual_Space_of_CVPR_2020_paper.html) | Learning-Based | × |
+| DBCNN | [Blind image quality assessment using a deep bilinear convolutional neural network](https://arxiv.org/pdf/1907.02665) | Learning-Based | × |
+| TOPIQNR | [Topiq: A top-down approach from semantics to distortions for image quality assessment](https://arxiv.org/abs/2308.03060) | Learning-Based | × |
+| CNNIQA | [Convolutional neural networks for no-reference image quality assessment](https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Kang_Convolutional_Neural_Networks_2014_CVPR_paper.html) | Learning-Based | × |
 
 </details>
 
@@ -132,38 +133,39 @@ Image restoration aims to recover a high-quality image from its degraded counter
 <summary><b>Language-Driven IQA Methods</b></summary>
 <br>
 
-| Method | Paper / Link | Type | Sub-category | GT Required | Usage |
-|---|---|---|---|---|---|
-| CLIP-IQA | [CLIP-IQA](https://arxiv.org/abs/2207.12396) | No-Reference | Alignment-Based | No | Perceptual alignment |
-| QualiCLIP | [QualiCLIP](#) | No-Reference | Alignment-Based | No | Perceptual alignment |
-| LIQE | [LIQE](https://arxiv.org/abs/2308.05977) | No-Reference | Alignment-Based | No | Language-informed quality estimation |
-| SCULA | [SCULA](#) | No-Reference | Alignment-Based | No | Perceptual alignment |
-| PromptIQA | [PromptIQA](#) | No-Reference | Alignment-Based | No | Prompt-based IQA |
-| GRMP-IQA | [GRMP-IQA](#) | No-Reference | Alignment-Based | No | Prompt / representation alignment |
-| ATTIQA | [ATTIQA](#) | No-Reference | Alignment-Based | No | Alignment-based IQA |
-| CAP-IQA | [CAP-IQA](#) | No-Reference | Alignment-Based | No | Cross-modal alignment |
-| SFD | [SFD](#) | No-Reference | Alignment-Based | No | Semantic-feature-based IQA |
-| UniQA | [UniQA](#) | No-Reference | Alignment-Based | No | Unified quality representation |
-| RALI | [RALI](#) | No-Reference | Alignment-Based | No | Representation alignment |
-| DepictQA | [DepictQA](https://arxiv.org/abs/2305.18842) | No-Reference | Reasoning-Based | No | Language-driven quality understanding |
-| DepictQA-Wild | [DepictQA-Wild](#) | No-Reference | Reasoning-Based | No | Real-world IQA reasoning |
-| IQAGPT | [IQAGPT](#) | No-Reference | Reasoning-Based | No | Quality reasoning and scoring |
-| Co-Instruct | [Co-Instruct](#) | No-Reference | Reasoning-Based | No | Instruction-following IQA |
-| Q-Ground | [Q-Ground](#) | No-Reference | Reasoning-Based | No | Grounded quality reasoning |
-| SEAGULL | [SEAGULL](#) | No-Reference | Reasoning-Based | No | Quality explanation / decision-making |
-| AgenticIQA | [AgenticIQA](#) | No-Reference | Reasoning-Based | No | Agent-based quality reasoning |
-| Q-Align | [Q-Align](#) | No-Reference | Scoring-Based | No | Language-guided quality scoring |
-| DeQA-Score | [DeQA-Score](#) | No-Reference | Scoring-Based | No | Quality scoring and calibration |
-| Dog-IQA | [Dog-IQA](#) | No-Reference | Scoring-Based | No | Quality scoring |
-| Q-Scorer | [Q-Scorer](#) | No-Reference | Scoring-Based | No | Language-guided scoring |
-| Compare2Score | [Compare2Score](#) | No-Reference | Scoring-Based | No | Comparative quality scoring |
-| Q-Insight | [Q-Insight](#) | No-Reference | Scoring-Based | No | Scoring with language insight |
-| Q-Ponder | [Q-Ponder](#) | No-Reference | Scoring-Based | No | Deliberative quality scoring |
-| Q-Hawkeye | [Q-Hawkeye](#) | No-Reference | Scoring-Based | No | Fine-grained score prediction |
-| LEAF | [LEAF](#) | No-Reference | Scoring-Based | No | Language-enhanced score prediction |
-| Q-Bench | [Q-Bench](#) | No-Reference | Resources / Benchmarks | No | Benchmarking |
-| Q-Bench+ | [Q-Bench+](#) | No-Reference | Resources / Benchmarks | No | Benchmarking |
-| Q-Instruct | [Q-Instruct](#) | No-Reference | Resources / Benchmarks | No | Instruction resource |
+| Method | Paper | Sub-category | GT Required |
+|---|---|---|---|
+| CLIP-IQA | [Exploring clip for assessing the look and feel of images](https://arxiv.org/abs/2207.12396) | Alignment-Based | × |
+| QualiCLIP | [Quality-aware image-text alignment for opinion-unaware image quality assessment](https://arxiv.org/abs/2403.11176) | Alignment-Based | × |
+| LIQE | [Blind image quality assessment via vision-language correspondence: A multitask learning perspective](https://arxiv.org/abs/2303.14968) | Alignment-Based | × |
+| SCUIA | [Semantic Contrast for Domain-Robust Underwater Image Quality Assessment](https://ieeexplore.ieee.org/abstract/document/11353920) | Alignment-Based | × |
+| PromptIQA | [Promptiqa: Boosting the performance and generalization for no-reference image quality assessment via prompts](https://arxiv.org/abs/2403.04993) | Alignment-Based | × |
+| GRMP-IQA | [Few-Shot Image Quality Assessment via Adaptation of Vision-Language Models](https://arxiv.org/abs/2409.05381) | Alignment-Based | × |
+| ATTIQA | [ATTIQA: Generalizable image quality feature extractor using attribute-aware pretraining](https://arxiv.org/abs/2406.01020) | Alignment-Based | × |
+| CAP-IQA | [CAP-IQA: Context-Aware Prompt-Guided CT Image Quality Assessment](https://arxiv.org/abs/2601.01613) | Alignment-Based | × |
+| SFD | [Exploring semantic feature discrimination for perceptual image super-resolution and opinion-unaware no-reference image quality assessment](https://openaccess.thecvf.com/content/CVPR2025/html/Dong_Exploring_Semantic_Feature_Discrimination_for_Perceptual_Image_Super-Resolution_and_Opinion-Unaware_CVPR_2025_paper.html) | Alignment-Based | × |
+| UniQA | [UniQA: Unified vision-language pre-training for image quality and aesthetic assessment](https://arxiv.org/abs/2406.01069) | Alignment-Based | × |
+| RALI | [Reasoning as Representation: Rethinking Visual Reinforcement Learning in Image Quality Assessment](https://arxiv.org/abs/2510.11369) | Alignment-Based | × |
+| DepictQA | [Depicting beyond scores: Advancing image quality assessment through multi-modal language models](https://arxiv.org/abs/2312.08962) | Reasoning-Based | × |
+| DepictQA-Wild | [Descriptive image quality assessment in the wild](https://arxiv.org/abs/2405.18842) | Reasoning-Based | × |
+| IQAGPT | [IQAGPT: computed tomography image quality assessment with vision-language and ChatGPT models](https://vciba.springeropen.com/articles/10.1186/s42492-024-00171-w) | Reasoning-Based | × |
+| Co-Instruct | [Towards open-ended visual quality comparison](https://arxiv.org/abs/2402.16641) | Reasoning-Based | × |
+| Q-Ground | [Q-Ground: Image quality grounding with large multi-modality models](https://arxiv.org/abs/2407.17035) | Reasoning-Based | × |
+| SEAGULL | [Seagull: No-reference image quality assessment for regions of interest via vision-language instruction tuning](https://arxiv.org/abs/2411.10161) | Reasoning-Based | × |
+| AgenticIQA | [Agenticiqa: An agentic framework for adaptive and interpretable image quality assessment](https://arxiv.org/abs/2509.26006) | Reasoning-Based | × |
+| Q-Align | [Q-align: Teaching lmms for visual scoring via discrete text-defined levels](https://arxiv.org/abs/2312.17090) | Scoring-Based | × |
+| DeQA-Score | [Teaching large language models to regress accurate image quality scores using score distribution](https://arxiv.org/abs/2501.11561) | Scoring-Based | × |
+| Dog-IQA | [Dog-IQA: Standard-guided Zero-shot MLLM for Mix-grained Image Quality Assessment](https://arxiv.org/abs/2410.02505) | Scoring-Based | × |
+| QScorer | [Revisiting MLLM Based Image Quality Assessment: Errors and Remedy](https://arxiv.org/abs/2511.07812) | Scoring-Based | × |
+| Compare2Score | [Adaptive image quality assessment via teaching large multimodal model to compare](https://arxiv.org/abs/2405.19298) | Scoring-Based | × |
+| Q-Insight | [Q-insight: Understanding image quality via visual reinforcement learning](https://arxiv.org/abs/2503.22679) | Scoring-Based | × |
+| QPonder | [Q-ponder: A unified training pipeline for reasoning-based visual quality assessment](https://arxiv.org/abs/2506.05384) | Scoring-Based | × |
+| Q-Hawkeye | [Q-Hawkeye: Reliable Visual Policy Optimization for Image Quality Assessment](https://arxiv.org/abs/2601.22920) | Scoring-Based | × |
+| LEAF | [Decoupling Perception and Calibration: Label-Efficient Image Quality Assessment Framework](https://arxiv.org/abs/2601.20689) | Scoring-Based | × |
+| Q-Bench | [Q-bench: A benchmark for general-purpose foundation models on low-level vision](https://arxiv.org/abs/2309.14181) | Benchmark / Instruction Resource | × |
+| Q-Bench+ | [Q-Bench + : A Benchmark for Multi-Modal Foundation Models on Low-Level Vision From Single Images to Pairs](https://arxiv.org/pdf/2402.07116) | Benchmark / Instruction Resource | × |
+| Q-Instruct | [Q-instruct: Improving low-level visual abilities for multi-modality foundation models](https://arxiv.org/abs/2311.06783) | Benchmark / Instruction Resource | × |
+
 
 </details>
 
@@ -171,22 +173,23 @@ Image restoration aims to recover a high-quality image from its degraded counter
 <summary><b>Evaluation Protocols</b></summary>
 <br>
 
-| Protocol | Paper / Link | Type | Sub-category | GT Required | Usage |
-|---|---|---|---|---|---|
-| PLCC | — | Evaluation Protocol | Human-Aligned | No | Correlation with human subjective scores |
-| SRCC | — | Evaluation Protocol | Human-Aligned | No | Rank correlation with human judgments |
-| KRCC | — | Evaluation Protocol | Human-Aligned | No | Rank consistency |
-| Weighted Kappa | — | Evaluation Protocol | Human-Aligned | No | Agreement with human annotations |
-| Percent Agreement | — | Evaluation Protocol | Human-Aligned | No | Annotation agreement |
-| Precision | — | Evaluation Protocol | Task-Oriented | Yes | Downstream task performance |
-| Recall | — | Evaluation Protocol | Task-Oriented | Yes | Downstream task performance |
-| F1 | — | Evaluation Protocol | Task-Oriented | Yes | Downstream task performance |
-| mIoU | — | Evaluation Protocol | Task-Oriented | Yes | Segmentation quality |
-| Accuracy | — | Evaluation Protocol | Task-Oriented | Yes | Classification / recognition performance |
-| BLEU-N | [BLEU](https://aclanthology.org/P02-1040/) | Evaluation Protocol | Text-Based | Yes | Textual fidelity evaluation |
-| ROUGE-L | [ROUGE](https://aclanthology.org/W04-1013/) | Evaluation Protocol | Text-Based | Yes | Overlap-based text evaluation |
-| METEOR | [METEOR](https://aclanthology.org/W05-0909/) | Evaluation Protocol | Text-Based | Yes | Text generation quality |
-| CIDEr | [CIDEr](https://arxiv.org/abs/1411.5726) | Evaluation Protocol | Text-Based | Yes | Semantic/text similarity |
+| Protocol | Paper | Sub-category | GT Required |
+|---|---|---|---|
+| PLCC | N/A | Human-Aligned | × |
+| SRCC | N/A | Human-Aligned | × |
+| KRCC | A new measure of rank correlation | Human-Aligned | × |
+| Weighted Kappa | Interrater reliability and agreement of subjective judgments | Human-Aligned | × |
+| Percent Agreement | N/A | Human-Aligned | × |
+| Precision | N/A | Task-Oriented | ✓ |
+| Recall | N/A | Task-Oriented | ✓ |
+| F1 | N/A | Task-Oriented | ✓ |
+| mIoU | N/A | Task-Oriented | ✓ |
+| Accuracy | [Depicting beyond scores: Advancing image quality assessment through multi-modal language models](https://arxiv.org/abs/2312.08962) | Task-Oriented | ✓ |
+| BLEU-N | [Bleu: a method for automatic evaluation of machine translation](https://research.ibm.com/publications/bleu-a-method-for-automatic-evaluation-of-machine-translation) | Text-Based | ✓ |
+| ROUGE-L | [Rouge: A package for automatic evaluation of summaries](https://www.microsoft.com/en-us/research/publication/rouge-a-package-for-automatic-evaluation-of-summaries/) | Text-Based | ✓ |
+| METEOR | [METEOR: An automatic metric for MT evaluation with improved correlation with human judgments](https://aclanthology.org/W05-0909.pdf) | Text-Based | ✓ |
+| CIDEr | [Cider: Consensus-based image description evaluation](https://arxiv.org/abs/1411.5726) | Text-Based | ✓ |
+
 
 </details>
 
