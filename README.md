@@ -42,9 +42,9 @@ Image restoration aims to recover a high-quality image from its degraded counter
 
 ## 📌 TODO
 
-- [ ] Complete the paper table
-- [ ] Add language-driven IQA subsection
-- [ ] Complete dataset table
+- [x] Complete the paper table
+- [x] Add language-driven IQA subsection
+- [x] Complete dataset table
 
 
 ## 📚 Papers by Task
@@ -269,9 +269,9 @@ Image restoration aims to recover a high-quality image from its degraded counter
 
 | Method | Venue | Task | Domain |
 |---|---|---|---|
-| [Kodak24]（https://doi.org/10.6084/m9.figshare.26827765）| 1999 | Denoising | Natural |
+| [Kodak24](https://doi.org/10.6084/m9.figshare.26827765)| 1999 | Denoising | Natural |
 | [McMaster](https://doi.org/10.1117/1.3600632/) | SPIE 2011 | Denoising | Natural |
-| [CBSD68](https://doi.org/10.1109/ICCV.2001.937655) | ICCV 2001 | Denoising | Medical |
+| [CBSD68](https://doi.org/10.1109/ICCV.2001.937655) | ICCV 2001 | Denoising | Natural |
 | [Urban100](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Huang_Single_Image_Super-Resolution_2015_CVPR_paper.pdf) | CVPR 2015 | Denoising | Natural |
 | [DIV2K](https://openaccess.thecvf.com/content_cvpr_2017_workshops/w12/papers/Agustsson_NTIRE_2017_Challenge_CVPR_2017_paper.pdf) | CVPR 2017 | Denoising | Natural |
 | [SIDD](https://openaccess.thecvf.com/content_cvpr_2018/papers/Abdelhamed_A_High-Quality_Denoising_CVPR_2018_paper.pdf) | CVPR 2018 | Denoising | Natural |
@@ -290,7 +290,7 @@ Image restoration aims to recover a high-quality image from its degraded counter
 |---|---|---|---|
 | [Rain100L](https://openaccess.thecvf.com/content_cvpr_2017/papers/Yang_Deep_Joint_Rain_CVPR_2017_paper.pdf) | CVPR 2017 | Deraining | Natural |
 | [Rain100H](https://openaccess.thecvf.com/content_cvpr_2017/papers/Yang_Deep_Joint_Rain_CVPR_2017_paper.pdf) | CVPR 2017 | Deraining | Natural |
-| [Rain800](https://doi.org/10.1109/TCSVT.2019.2920407) | T-CSVT 2019 | Deraining | Medical |
+| [Rain800](https://doi.org/10.1109/TCSVT.2019.2920407) | T-CSVT 2019 | Deraining | Natural |
 | [Rain1400](https://openaccess.thecvf.com/content_cvpr_2017/papers/Fu_Removing_Rain_From_CVPR_2017_paper.pdf) | CVPR 2017 | Deraining | Natural |
 | [Raindrop](https://openaccess.thecvf.com/content_cvpr_2018/papers/Qian_Attentive_Generative_Adversarial_CVPR_2018_paper.pdf) | CVPR 2018 | Deraining | Natural |
 | [Outdoor-Rain](https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Heavy_Rain_Image_Restoration_Integrating_Physics_Model_and_Conditional_Adversarial_CVPR_2019_paper.pdf) | CVPR 2019 | Deraining| Natural |
@@ -308,7 +308,7 @@ Image restoration aims to recover a high-quality image from its degraded counter
 |---|---|---|---|
 | [FoggyCityscapes](https://doi.org/10.1007/s11263-018-1072-8) | IJCV 2018 | Dehazing | Natural |
 | [ACDC](https://doi.org/10.1109/TPAMI.2025.3633063) | T-PAMI 2025 | Dehazing | Natural |
-| [RESIDE](https://doi.org/10.1109/TIP.2018.2867951) | T-IP 2018 | Dehazing | Medical |
+| [RESIDE](https://doi.org/10.1109/TIP.2018.2867951) | T-IP 2018 | Dehazing | Natural |
 | [NH-HAZE](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Ancuti_NH-HAZE_An_Image_Dehazing_Benchmark_With_Non-Homogeneous_Hazy_and_Haze-Free_CVPRW_2020_paper.pdf) | CVPR 2020 | Dehazing | Natural |
 | [Dense-Haze](https://doi.org/10.1109/ICIP.2019.8803046) | ICIP 2019 | Dehazing | Natural |
 
@@ -333,7 +333,7 @@ Image restoration aims to recover a high-quality image from its degraded counter
 |---|---|---|---|
 | [DPD-blur](https://doi.org/10.1007/978-3-030-58607-2_7) | ECCV 2020 | Deblurring | Natural |
 | [DPD-disp](https://doi.org/10.1109/ICCP48838.2020.9105278) | ICCP 2020 | Deblurring | Natural |
-| [DDD-syn](https://openaccess.thecvf.com/content/CVPR2021/papers/Pan_Dual_Pixel_Exploration_Simultaneous_Depth_Estimation_and_Image_Restoration_CVPR_2021_paper.pdf) | CVPR 2021 | Deblurring | Medical |
+| [DDD-syn](https://openaccess.thecvf.com/content/CVPR2021/papers/Pan_Dual_Pixel_Exploration_Simultaneous_Depth_Estimation_and_Image_Restoration_CVPR_2021_paper.pdf) | CVPR 2021 | Deblurring | Natural |
 | [RDPD](https://openaccess.thecvf.com/content/ICCV2021/papers/Abuolaim_Learning_To_Reduce_Defocus_Blur_by_Realistically_Modeling_Dual-Pixel_Data_ICCV_2021_paper.pdf) | ICCV 2021 | Deblurring | Natural |
 | [GoPro](https://openaccess.thecvf.com/content_cvpr_2017/papers/Nah_Deep_Multi-Scale_Convolutional_CVPR_2017_paper.pdf) | CVPR 2017 | Deblurring | Natural |
 
@@ -347,7 +347,7 @@ Image restoration aims to recover a high-quality image from its degraded counter
 |---|---|---|---|
 | [LOL-v1](https://doi.org/10.48550/arXiv.1808.04560) | Arxiv 2018 | LLIE | Natural |
 | [LSRW](https://doi.org/10.1016/j.jvcir.2022.103712) | JVCIR 2022 | LLIE | Natural |
-| [DICM](https://doi.org/10.1109/TIP.2013.2284059) | T-IP 2013 | LLIE | Medical |
+| [DICM](https://doi.org/10.1109/TIP.2013.2284059) | T-IP 2013 | LLIE | Natural |
 | [NPE](https://doi.org/10.1109/TIP.2013.2261309) | T-IP 2013 | LLIE | Natural |
 | [VV](https://doi.org/10.1007/s11042-017-4783-x) | MTA 2017 | LLIE | Natural |
 | [LOL-v2-real](https://doi.org/10.1109/TIP.2021.3050850) | T-IP 2021 | LLIE | Natural |
@@ -401,7 +401,7 @@ Image restoration aims to recover a high-quality image from its degraded counter
 |---|---|---|---|
 | [PromptFix](https://doi.org/10.48550/arXiv.2405.16785) | Arxiv 2024 | AiO | Natural |
 | [MiO100](https://doi.org/10.48550/arXiv.2401.03379) | Arxiv 2024 | AiO | Natural |
-| [AgenticIR](https://doi.org/10.48550/arXiv.2410.17809) | Arxiv 2024 | AiO | Medical |
+| [AgenticIR](https://doi.org/10.48550/arXiv.2410.17809) | Arxiv 2024 | AiO | Natural |
 | [CleanBench](https://openaccess.thecvf.com/content/CVPR2025/papers/Lin_JarvisIR_Elevating_Autonomous_Driving_Perception_with_Intelligent_Image_Restoration_CVPR_2025_paper.pdf) | CVPR 2025 | AiO | Natural |
 | [MSRS](https://doi.org/10.1016/j.inffus.2022.03.007) | IF 2022 | AiO | Natural |
 | [FMB](https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_Multi-interactive_Feature_Learning_and_a_Full-time_Multi-modality_Benchmark_for_Image_ICCV_2023_paper.pdf) | ICCV 2023 | AiO | Natural |
