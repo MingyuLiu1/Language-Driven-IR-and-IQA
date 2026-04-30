@@ -365,7 +365,7 @@ Image restoration aims to recover a high-quality image from its degraded counter
 |---|---|---|---|
 | [Set5](http://dx.doi.org/10.5244/C.26.135) | BMVC 2012 | SR | Natural |
 | [Set14](https://doi.org/10.1007/978-3-642-27413-8_47) | ICCS 2010 | SR | Natural |
-| [Manga109](https://doi.org/10.1007/s11042-016-4020-z) | MTA 2017 | SR | Medical |
+| [Manga109](https://doi.org/10.1007/s11042-016-4020-z) | MTA 2017 | SR | Natural |
 | [CelebA](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Cheng_Beyond_White_Ground_ICCV_2015_paper.pdf) | ICCV 2015 | SR | Natural |
 | [RealSR](https://openaccess.thecvf.com/content_ICCV_2019/papers/Cai_Toward_Real-World_Single_Image_Super-Resolution_A_New_Benchmark_and_a_ICCV_2019_paper.pdf) | ICCV 2019 | SR | Natural |
 | [DrealSR](https://doi.org/10.1007/978-3-030-58598-3_7) | ECCV 2020 | SR | Natural |
