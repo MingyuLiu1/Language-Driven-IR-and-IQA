@@ -17,7 +17,7 @@ Image restoration aims to recover a high-quality image from its degraded counter
 **Keywords: Image Restoration, Image Quality Assessment, Vision-Language Models, Multimodal Large Language Models**
 
 <p align="center">
-<img src="assets/taxonomy.png" alt="Organization of the revised survey, including four combinable foundation-model roles" width="100%">
+<img src="assets/taxonomy.png" alt="Overview of language-driven image restoration and image quality assessment, including four combinable foundation-model roles" width="100%">
 </p>
 
 <details>
@@ -44,7 +44,7 @@ The timeline covers 52 method families through 13 October 2026. Multiple symbols
 
 ## :fire: Updates
 
-- [November 20, 2026] Synchronized the taxonomy, 52 core method families, figures, IQA categories, and dataset resources with the revised manuscript.
+- [November 20, 2026] Updated the taxonomy, paper lists, figures, IQA methods, and dataset resources.
 - [April 08, 2026] Preprint released. [Read the preprint](https://www.preprints.org/manuscript/202603.2366).
 
 ## 🧭 Foundation-Model Roles
@@ -62,9 +62,9 @@ A role does not imply that the FM is called during inference. In the method tabl
 
 ## 📚 Papers by Task
 
-The following **52 method families** correspond to Table 2 of the revised survey and cover work through **13 October 2026**. Task groups support browsing; FM roles follow the interaction-centric taxonomy. Publication information follows the cited versions, and paper links may lead to their preprints. HSI denotes hyperspectral imaging.
+The following **52 method families** are organized by restoration task and cover work through **13 October 2026**. FM roles follow the interaction-centric taxonomy. Publication information follows the cited versions, and paper links may lead to their preprints. HSI denotes hyperspectral imaging.
 
-Code and weight links follow the resource audit in the revised manuscript, dated **6 November 2026**. “—” means that no implementation or weight link is recorded in that audit. Project pages are labeled separately.
+Links to code, model weights, and project pages are provided where available. “—” indicates that no resource link is listed. Project pages are labeled separately.
 
 <details>
 <summary><b>Denoising</b></summary>
@@ -173,17 +173,6 @@ Code and weight links follow the resource audit in the revised manuscript, dated
 | **SkillIR**<br>[SkillIR: Evolving Scene-Aware Skills for Agentic Image Restoration](https://arxiv.org/abs/2609.21468) | arXiv 2026 | All-in-One | Natural | Exec | — |
 
 </details>
-
-### Additional Related Papers
-
-These related papers are retained as supplementary reading and are not counted among the 52 core method families. Their placement here does not assign a role in the core taxonomy.
-
-| Paper | Venue | Task | Domain | Resources |
-|---|---|---|---|---|
-| [CLIP-driven rain perception: Adaptive deraining with pattern-aware network routing and mask-guided cross-attention](https://arxiv.org/pdf/2506.01366) | arXiv 2025 | Deraining | Natural | — |
-| [From Filters to VLMs: Benchmarking Defogging Methods through Object Detection and Segmentation Performance](https://arxiv.org/pdf/2510.03906) | arXiv 2025 | Dehazing | Natural | — |
-| [SeeSR: Towards Semantics-Aware Real-World Image Super-Resolution](https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_SeeSR_Towards_Semantics-Aware_Real-World_Image_Super-Resolution_CVPR_2024_paper.pdf) | CVPR 2024 | SR | Natural | [Code](https://github.com/cswry/SeeSR) |
-| [Underwater Diffusion Attention Network with Contrastive Language-Image Joint Learning for Underwater Image Enhancement](https://arxiv.org/pdf/2505.19895) | arXiv 2025 | Underwater | Underwater | — |
 
 ## ⚖️ Image Quality Assessment
 
@@ -302,7 +291,7 @@ PLCC, SRCC, and KRCC measure agreement with human ratings rather than image qual
 
 ## 📊 Datasets
 
-Dataset years follow Tables 3–4 of the revised survey. **Reference** identifies the linked publication or resource, whose publication year may differ from the dataset year. HSI denotes hyperspectral imaging.
+**Reference** identifies the linked publication or resource, whose publication year may differ from the dataset year. HSI denotes hyperspectral imaging.
 
 <details>
 <summary><b>Denoising</b></summary>
@@ -448,7 +437,7 @@ CleanBench contains 150K instruction-response pairs. CleanBench-Real contains 80
 
 </details>
 
-The revised survey also discusses [GGT-100K](https://arxiv.org/abs/2605.31039), which pairs real degraded images with generated references selected through quality assessment. These generated references are supervision candidates rather than observed clean ground truth. [Dataset and project resources](https://github.com/PolyU-VCLab/GGT-100K).
+[GGT-100K](https://arxiv.org/abs/2605.31039) pairs real degraded images with generated references selected through quality assessment. These generated references are supervision candidates rather than observed clean ground truth. [Dataset and project resources](https://github.com/PolyU-VCLab/GGT-100K).
 
 ## 🤝 &nbsp; Citation
 
